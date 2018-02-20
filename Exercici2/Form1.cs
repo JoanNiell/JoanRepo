@@ -12,6 +12,9 @@ namespace Exercici2
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// hola
+        /// </summary>
         int result = 0;
         public Form1()
         {
@@ -20,8 +23,10 @@ namespace Exercici2
 
         private void CalculaGastos(object sender, EventArgs e)
         {
+            
             try
             {
+                
                 if (radio1.Checked)
                 {
                     result += 50;

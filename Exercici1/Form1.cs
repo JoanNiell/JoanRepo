@@ -16,7 +16,11 @@ namespace Exercici1
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Metode per entrar les dades
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Ingressar(object sender, EventArgs e)
         {
             try
@@ -33,7 +37,11 @@ namespace Exercici1
                 MessageBox.Show(ex.Message);
             }
         }
-
+        /// <summary>
+        /// Metode per tancar la consola
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Sortir(object sender, EventArgs e)
         {
             Application.Exit();
