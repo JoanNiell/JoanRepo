@@ -12,11 +12,19 @@ namespace Exercici3
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// Constructor per defecte
+        /// </summary>
         public Form1()
         {
+            
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Metode per iniciar el programa
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void iniciar(object sender, EventArgs e)
         {
             try
