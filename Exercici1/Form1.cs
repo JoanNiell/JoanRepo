@@ -40,8 +40,8 @@ namespace Exercici1
         /// <summary>
         /// Metode per tancar la consola
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">Prametre per defecte</param>
+        /// <param name="e">Prarametre 2 per defecte</param>
         private void Sortir(object sender, EventArgs e)
         {
             Application.Exit();
