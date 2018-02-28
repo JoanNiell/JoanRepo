@@ -34,9 +34,9 @@ namespace Exercici3
                 int rep = Int32.Parse(repeticions.Text);
                 for (int i = 1; i <= rep; i++)
                 {
+                    total += i;
                     if (parcials.Checked)
                     {
-                        total += i;
                         llista.Items.Add("Sumant: " + i + " Suma Parcial: " + total);
                     }
                 }
